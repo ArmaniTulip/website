@@ -40,8 +40,8 @@
     echo "<br> My GPA is $gpa.";
     echo "<br> The price of the $quantity $food is $$price.";
     echo "<br> The tax on the $quantity $food is $" . ($price * $tax) . ".";
-    echo "<br> I am employed: $isemployed.";
-    echo "<br> I am online: $online.";
+    echo "<br> I am employed: $isemployed";
+    echo "<br> I am online: $online";
 ?>
 
 <!-- HTML -->
