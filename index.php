@@ -8,12 +8,40 @@
     is a multi 
     line comment
     */
+
+    // integers
+
+    $age = 28;
+    $users = 2;
+    $quantity = 3;
+
+    // floats
+
+    $gpa = 2.5;
+    $price = 19.99;
+    $tax = 0.07;
+
+    // strings
+
     $name = "Armani Tuileepa";
     $food = "Tacos";
     $email = "myemail@example.com";
+
+    // boolean
+    $isemployed = true;
+    $online = false;
+    
     echo "My name is $name.";
     echo "<br> I like $food.";
     echo "<br> My email is $email.";
+    echo "<br> I am $age years old.";
+    echo "<br> There are $users users online.";
+    echo "<br> I want to order $quantity $food.";
+    echo "<br> My GPA is $gpa.";
+    echo "<br> The price of the $quantity $food is $$price.";
+    echo "<br> The tax on the $quantity $food is $" . ($price * $tax) . ".";
+    echo "<br> I am employed: $isemployed.";
+    echo "<br> I am online: $online.";
 ?>
 
 <!-- HTML -->
@@ -35,14 +63,13 @@
 
 <style>
     button.clickme {
-        background-color: red;
+        background-color: rgb(001, 500, 300);
         color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
+        border-radius: 10px;
+        border:none;
+        height: 25px;
         cursor: pointer;
+        
+        
     }
 </style>
